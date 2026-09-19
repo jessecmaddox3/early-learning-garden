@@ -20,7 +20,7 @@ For a copy you can keep on a computer:
 1. Download the offline ZIP above. You do not need a GitHub account or the green Code button.
 2. Open the ZIP and extract its folder. On Windows, right-click it and choose **Extract All**. On a Mac, double-click it.
 3. Open **Early-Learning-Garden.html** inside the extracted folder. Keep the five HTML files together so its picture menu can open every game.
-4. Play in your browser. The complete games work without internet. Sound practice remains adult-led unless you add recordings or enable an available local device voice.
+4. Play in your browser. The complete games work without internet. Letter-sound practice remains adult-led unless you add recordings. An available local device voice can read instructions and whole words.
 
 Each game is also a complete standalone HTML file in that folder. Open one directly if you prefer. Keep using the same file and browser, and export progress before moving files, changing browsers or clearing browser data.
 
