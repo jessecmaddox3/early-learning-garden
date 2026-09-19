@@ -1,0 +1,15 @@
+node_modules/
+artifacts/
+.env
+.env.*
+!.env.example
+public/cloud-config.local.json
+__pycache__/
+*.pyc
+.DS_Store
+
+public/audio/*.mp3
+recordings/
+audio-packs/
+voice-plan*.json
+recording-script*.txt

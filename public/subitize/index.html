@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="app-root" content="../">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How Many?</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#fdf6ec">
+<link rel="stylesheet" href="../shared/kids.css">
+<style>
+  .jar {
+    position: relative;
+    width: min(84vw, 460px); aspect-ratio: 4 / 3;
+    background: #fff; border: 4px solid var(--line); border-radius: 28px;
+    overflow: hidden;
+  }
+  .bug { position: absolute; font-size: clamp(34px, 9vmin, 62px); line-height: 1; }
+  .jar.dark { background: #23324a; border-color: #23324a; }
+  .jar .lid { position: absolute; inset: 0; display: grid; place-items: center;
+              font-size: clamp(50px, 13vmin, 90px); background: #23324a; color: #fff; }
+</style>
+
+</head>
+<body>
+<p class="grown-up"><a href="../">← back</a></p>
+<div class="wrap"><main class="stage" id="gameplay">
+  <div class="jar" id="jar"><div class="lid" id="lid">🫙</div></div>
+  <div class="reaction" id="reaction" role="status"></div>
+  <div class="choices-row" id="choices" hidden></div>
+  <button class="replay" id="again" hidden aria-label="Look again">👀</button>
+  <div class="stickers" id="stickers"></div>
+</main></div>
+<script src="./bundle.js" defer></script>
+</body>
+</html>

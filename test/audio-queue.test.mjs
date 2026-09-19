@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createAudioQueue} from '../public/shared/audio-queue.js';
+const gate=()=>{let resolve;const promise=new Promise(r=>resolve=r);return {promise,resolve};};
+test('rapid rail crossings play every sound sequentially before the word',async()=>{const seen=[],holds=[];const q=createAudioQueue({play:async(x)=>{seen.push(x);const g=gate();holds.push(g);await g.promise;return true;},maxMs:1000});const done=['f','o','ks','fox'].map(x=>q.say(x));for(let i=0;i<4;i++){await new Promise(r=>setImmediate(r));assert.equal(seen.length,i+1);holds[i].resolve();}assert.deepEqual(await Promise.all(done),[true,true,true,true]);assert.deepEqual(seen,['f','o','ks','fox']);});
+test('replay cancels the active sound and prevents queued old words',async()=>{const seen=[],signals=[];const q=createAudioQueue({play:async(x,s)=>{seen.push(x);signals.push(s);await new Promise(()=>{});},maxMs:1000});const a=q.say('old sound'),b=q.say('old word');await new Promise(r=>setImmediate(r));q.cancel();assert.deepEqual(await Promise.all([a,b]),[false,false]);assert.deepEqual(seen,['old sound']);assert.equal(signals[0].aborted,true);});
+test('stalled playback is stopped and the queue remains usable',async()=>{let signal;const q=createAudioQueue({play:async(x,s)=>{if(x==='stalled'){signal=s;await new Promise(()=>{});}return true;},maxMs:10});assert.equal(await q.say('stalled'),false);assert.equal(signal.aborted,true);assert.equal(await q.say('next'),true);});

@@ -1,0 +1,10 @@
+{
+  "name": "Early Learning Garden",
+  "short_name": "Learning Garden",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#fdf6ec",
+  "theme_color": "#fdf6ec"
+}

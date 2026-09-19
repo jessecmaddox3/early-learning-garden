@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="app-root" content="../">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Letter Garden</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#fdf6ec">
+<link rel="stylesheet" href="../shared/kids.css">
+<style>
+  .bloom {
+    position: relative; min-width: 130px; min-height: 150px;
+    background: none; border: none; cursor: pointer; font: inherit;
+  }
+  .bloom .petals { font-size: clamp(74px, 20vmin, 130px); line-height: 1; display: block; }
+  .bloom .letter {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    font-size: clamp(34px, 9vmin, 58px); font-weight: 700; color: #4a3a1e;
+    transform: translateY(-12%);
+  }
+  .bloom:active { transform: translateY(4px); }
+  .bloom.grown .petals { animation: grow .5s ease; }
+  @keyframes grow { from { transform: scale(.6) rotate(-20deg); } to { transform: none; } }
+  .speaker { font-size: clamp(64px, 17vmin, 110px); cursor: pointer; background:none; border:none; }
+</style>
+
+</head>
+<body>
+<p class="grown-up"><a href="../">← back</a></p>
+<div class="wrap"><main class="stage" id="gameplay">
+  <button class="speaker" id="speaker" aria-label="Hear the sound again">🔊</button>
+  <div class="choices-row" id="blooms"></div>
+  <div class="reaction" id="reaction" role="status"></div>
+  <button class="replay" id="again" type="button" aria-label="Play another letter session" hidden>🔁</button>
+<div class="stickers" id="stickers"></div>
+</main></div>
+<script src="./bundle.js" defer></script>
+</body>
+</html>

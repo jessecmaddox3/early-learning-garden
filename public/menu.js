@@ -1,0 +1,4 @@
+import {installUnlock,say,cancelAudio} from './shared/audio.js';
+const GAMES=[{href:'subitize/',icon:'🐞',tint:'a',id:'menu-count',label:'How many?'},{href:'blend/',icon:'🤖',tint:'b',id:'menu-blend',label:'Robot words'},{href:'letters/',icon:'🌻',tint:'c',id:'menu-letters',label:'Letter garden'},{href:'path/',icon:'🐰',tint:'d',id:'menu-path',label:'Bunny hops'}];
+installUnlock();let navigating=false,alive=true;window.addEventListener('pagehide',()=>{alive=false;cancelAudio();});
+for(const game of GAMES){const a=document.createElement('a');a.className=`tile tint-${game.tint}`;a.href=game.href;a.textContent=game.icon;a.setAttribute('aria-label',game.label);a.addEventListener('click',async e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();if(navigating)return;navigating=true;await say(game.id,game.label);if(alive)location.href=game.href;});document.getElementById('menu').append(a);}

@@ -1,0 +1,487 @@
+{
+  "menu-count": {
+    "text": "How many?",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "menu-blend": {
+    "text": "Robot words.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "menu-letters": {
+    "text": "Letter garden.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "menu-path": {
+    "text": "Bunny hops.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "ask-how-many": {
+    "text": "How many?",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "ask-tap-jar": {
+    "text": "Tap the jar to start.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "lets-count": {
+    "text": "Let's count them.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "all-done": {
+    "text": "All done! Lovely work.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "try-again": {
+    "text": "Try again.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "which-picture": {
+    "text": "Which picture?",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "slide-robot": {
+    "text": "Slide the robot.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "next-one": {
+    "text": "The next one.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "bunny-on": {
+    "text": "The bunny is on",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "hop-to": {
+    "text": "Hop to",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-1": {
+    "text": "1",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-2": {
+    "text": "2",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-3": {
+    "text": "3",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-4": {
+    "text": "4",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-5": {
+    "text": "5",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-6": {
+    "text": "6",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-7": {
+    "text": "7",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-8": {
+    "text": "8",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-9": {
+    "text": "9",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "num-10": {
+    "text": "10",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-1": {
+    "text": "1 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-2": {
+    "text": "2 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-3": {
+    "text": "3 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-4": {
+    "text": "4 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-5": {
+    "text": "5 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-6": {
+    "text": "6 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "total-7": {
+    "text": "7 altogether.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "hops-1": {
+    "text": "1 hops!",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "hops-2": {
+    "text": "2 hops!",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "hops-3": {
+    "text": "3 hops!",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "hops-4": {
+    "text": "4 hops!",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "hops-5": {
+    "text": "5 hops!",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "snd-m": {
+    "text": "The sound of m in moon",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of moon, not the letter name. Hold the sound gently without adding a vowel."
+  },
+  "anchor-m": {
+    "text": "moon.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say moon."
+  },
+  "snd-s": {
+    "text": "The sound of s in sun",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of sun, not the letter name. Hold the sound gently without adding a vowel."
+  },
+  "anchor-s": {
+    "text": "sun.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say sun."
+  },
+  "snd-a": {
+    "text": "The sound of a in apple",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of apple, not the letter name. Use the short vowel in this word."
+  },
+  "anchor-a": {
+    "text": "apple.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say apple."
+  },
+  "snd-t": {
+    "text": "The sound of t in tree",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of tree, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-t": {
+    "text": "tree.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say tree."
+  },
+  "snd-n": {
+    "text": "The sound of n in nose",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of nose, not the letter name. Hold the sound gently without adding a vowel."
+  },
+  "anchor-n": {
+    "text": "nose.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say nose."
+  },
+  "snd-p": {
+    "text": "The sound of p in pie",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of pie, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-p": {
+    "text": "pie.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say pie."
+  },
+  "snd-i": {
+    "text": "The sound of i in insect",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of insect, not the letter name. Use the short vowel in this word."
+  },
+  "anchor-i": {
+    "text": "insect.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say insect."
+  },
+  "snd-f": {
+    "text": "The sound of f in fish",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of fish, not the letter name. Hold the sound gently without adding a vowel."
+  },
+  "anchor-f": {
+    "text": "fish.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say fish."
+  },
+  "snd-d": {
+    "text": "The sound of d in dog",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of dog, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-d": {
+    "text": "dog.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say dog."
+  },
+  "snd-o": {
+    "text": "The sound of o in octopus",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of octopus, not the letter name. Use the short vowel in this word."
+  },
+  "anchor-o": {
+    "text": "octopus.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say octopus."
+  },
+  "snd-l": {
+    "text": "The sound of l in lion",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of lion, not the letter name. Hold the sound gently without adding a vowel."
+  },
+  "anchor-l": {
+    "text": "lion.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say lion."
+  },
+  "snd-h": {
+    "text": "The sound of h in hat",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of hat, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-h": {
+    "text": "hat.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say hat."
+  },
+  "snd-e": {
+    "text": "The sound of e in egg",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of egg, not the letter name. Use the short vowel in this word."
+  },
+  "anchor-e": {
+    "text": "egg.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say egg."
+  },
+  "snd-g": {
+    "text": "The sound of g in goat",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of goat, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-g": {
+    "text": "goat.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say goat."
+  },
+  "snd-r": {
+    "text": "The sound of r in robot",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of robot, not the letter name. Hold the sound gently without adding a vowel."
+  },
+  "anchor-r": {
+    "text": "robot.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say robot."
+  },
+  "snd-b": {
+    "text": "The sound of b in bee",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of bee, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-b": {
+    "text": "bee.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say bee."
+  },
+  "snd-u": {
+    "text": "The sound of u in umbrella",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of umbrella, not the letter name. Use the short vowel in this word."
+  },
+  "anchor-u": {
+    "text": "umbrella.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say umbrella."
+  },
+  "snd-c": {
+    "text": "The sound of c in cat",
+    "kind": "sound",
+    "guidance": "Say the sound at the start of cat, not the letter name. Keep the sound short; do not add an exaggerated uh."
+  },
+  "anchor-c": {
+    "text": "cat.",
+    "kind": "speech",
+    "guidance": "Optional: model the intended sound, then say cat."
+  },
+  "snd-x": {
+    "text": "The sound of x in fox",
+    "kind": "sound",
+    "guidance": "Say the final /k/ then /s/ in fox together. This letter represents two sounds."
+  },
+  "word-sun": {
+    "text": "sun",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-sun": {
+    "text": "Yes! sun.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-man": {
+    "text": "man",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-man": {
+    "text": "Yes! man.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-fan": {
+    "text": "fan",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-fan": {
+    "text": "Yes! fan.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-mom": {
+    "text": "mom",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-mom": {
+    "text": "Yes! mom.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-net": {
+    "text": "net",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-net": {
+    "text": "Yes! net.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-sat": {
+    "text": "sat",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-sat": {
+    "text": "Yes! sat.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-map": {
+    "text": "map",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-map": {
+    "text": "Yes! map.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-fox": {
+    "text": "fox",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-fox": {
+    "text": "Yes! fox.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-pig": {
+    "text": "pig",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-pig": {
+    "text": "Yes! pig.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-bug": {
+    "text": "bug",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-bug": {
+    "text": "Yes! bug.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-cat": {
+    "text": "cat",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-cat": {
+    "text": "Yes! cat.",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "word-dog": {
+    "text": "dog",
+    "kind": "speech",
+    "guidance": ""
+  },
+  "yes-dog": {
+    "text": "Yes! dog.",
+    "kind": "speech",
+    "guidance": ""
+  }
+}

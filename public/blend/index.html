@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="app-root" content="../">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Robot Words</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#fdf6ec">
+<link rel="stylesheet" href="../shared/kids.css">
+<style>
+  .track-wrap { width: min(92vw, 560px); }
+  .letters { display: grid; grid-auto-flow: column; gap: 10px; margin-bottom: 8px; }
+  .slot {
+    display: grid; place-items: center; aspect-ratio: 1/1;
+    font-size: clamp(46px, 14vmin, 96px); font-weight: 700;
+    background: #fff; border: 4px solid var(--line); border-radius: 22px;
+    transition: background .12s ease, border-color .12s ease, transform .12s ease;
+  }
+  .slot.lit { background: var(--sun); border-color: var(--pop); transform: translateY(-6px); }
+  .rail { position: relative; height: 74px; background: #fff;
+          border: 4px solid var(--line); border-radius: 40px; }
+  .puck {
+    position: absolute; top: 50%; left: 0; transform: translate(-50%, -50%);
+    width: 62px; height: 62px; border-radius: 50%; background: var(--sea);
+    display: grid; place-items: center; font-size: 34px; cursor: grab;
+    box-shadow: 0 4px 0 rgba(0,0,0,.18); touch-action: none;
+  }
+  .word-out { font-size: clamp(30px, 8vmin, 54px); min-height: 1.2em; font-weight: 700; }
+  .pics { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+  .pic { min-width: 118px; min-height: 118px; font-size: clamp(48px,12vmin,80px);
+         background: #fff; border: 4px solid var(--line); border-radius: 24px; cursor: pointer; }
+  .pic:active { transform: translateY(3px); }
+</style>
+
+</head>
+<body>
+<p class="grown-up"><a href="../">← back</a></p>
+<div class="wrap"><main class="stage" id="gameplay">
+  <div class="track-wrap">
+    <div class="letters" id="letters"></div>
+    <div class="rail" id="rail" role="slider" tabindex="0" aria-label="Blend the word: use arrow keys or End" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="puck" id="puck">🤖</div></div>
+  </div>
+  <div class="word-out" id="wordOut"></div>
+  <div class="pics" id="pics" hidden></div>
+  <div class="reaction" id="reaction" role="status"></div>
+  <button class="replay" id="again" aria-label="Again">🔁</button>
+  <div class="stickers" id="stickers"></div>
+</main></div>
+<script src="./bundle.js" defer></script>
+</body>
+</html>

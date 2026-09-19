@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="app-root" content="../">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bunny Hops</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#fdf6ec">
+<link rel="stylesheet" href="../shared/kids.css">
+<style>
+  /* Keep the numbered path straight and equally spaced. */
+  .path-scroll { max-width:100%; overflow-x:auto; padding:55px 5px 10px; }
+  .path { display: flex; gap: 6px; width: max-content; min-width: 100%; justify-content: flex-start; flex-wrap: nowrap; }
+  .pad {
+    flex: 0 0 48px; width: 48px; height: 48px;
+    display: grid; place-items: center;
+    font-size: clamp(22px, 3.4vw, 30px); font-weight: 700;
+    background: #fff; border: 3px solid var(--line); border-radius: 14px;
+    position: relative; cursor: pointer;
+  }
+  .pad.next { border-color: var(--pop); box-shadow: 0 0 0 4px rgba(232,115,74,.2); }
+  .pad .bunny { position: absolute; top: -46px; font-size: clamp(26px, 6vw, 44px); }
+  .pad .goal { position: absolute; top: -42px; font-size: clamp(22px, 5vw, 36px); }
+  .pad.done { background: #d6efd8; }
+</style>
+
+</head>
+<body>
+<p class="grown-up"><a href="../">← back</a></p>
+<div class="wrap"><main class="stage" id="gameplay">
+  <div class="reaction" id="reaction" role="status"></div>
+  <div class="path-scroll" tabindex="0" role="region" aria-label="Number path, scroll sideways for more squares"><div class="path" id="path"></div></div>
+  <button class="replay" id="again" aria-label="Again">🔁</button>
+  <div class="stickers" id="stickers"></div>
+</main></div>
+<script src="./bundle.js" defer></script>
+</body>
+</html>
