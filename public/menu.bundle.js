@@ -788,6 +788,9 @@
     alive = false;
     cancelAudio();
   });
+  window.addEventListener("pageshow", (event) => {
+    if (event.persisted) location.reload();
+  });
   for (const game of GAMES) {
     const a = document.createElement("a");
     a.className = `tile tint-${game.tint}`;
